@@ -1,13 +1,18 @@
 <template>
-  <Customer />
-  <Employee />
+  <div id="app">
+    <Navbar />
+    <div class="container">
+      <router-view />
+    </div>
+  </div>
 </template>
 
 <script>
-import Customer from "./components/Customer.vue";
-import Employee from "./components/Employee.vue";
+import Navbar from "./components/Navbar.vue";
+
 export default {
-  components: { Customer, Employee },
+  name: "App",
+  components: { Navbar },
 };
 </script>
 
