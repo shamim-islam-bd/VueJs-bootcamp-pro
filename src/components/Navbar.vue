@@ -1,5 +1,4 @@
-<template lang="">
-  <!-- navbar  -->
+<template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class="container">
       <button
@@ -36,6 +35,7 @@
     </div>
   </nav>
 </template>
+
 <script>
 export default {
   name: "Navbar",
